@@ -9,6 +9,7 @@ describe("react-gulpfile", () => {
 
     gulp.tasks.should.have.keys(
       "clean",
+      "check-dependencies",
       "build-scripts",
       "build-styles",
       "build-misc",
