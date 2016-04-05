@@ -1,7 +1,16 @@
 {
-  "private": true,
   "name": "react-gulpfile",
   "version": "0.0.0",
+  "description": "TODO.",
+  "author": "DSTIL",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dstil/react-gulpfile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dstil/react-gulpfile/issues"
+  },
   "main": "./dist/index.js",
   "scripts": {
     "build": "rimraf dist && babel lib -d dist",
