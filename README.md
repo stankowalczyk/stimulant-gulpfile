@@ -1,1 +1,1 @@
-# react-gulpfile [![NPM version](http://img.shields.io/npm/v/react-gulpfile.svg?style=flat-square)](https://www.npmjs.org/package/react-gulpfile) [![Build status](http://img.shields.io/travis/dstil/react-gulpfile.svg?style=flat-square)](https://travis-ci.org/dstil/react-gulpfile)
+# stimulant-gulpfile [![NPM version](http://img.shields.io/npm/v/stimulant-gulpfile.svg?style=flat-square)](https://www.npmjs.org/package/stimulant-gulpfile) [![Build status](http://img.shields.io/travis/dstil/stimulant-gulpfile.svg?style=flat-square)](https://travis-ci.org/dstil/stimulant-gulpfile)

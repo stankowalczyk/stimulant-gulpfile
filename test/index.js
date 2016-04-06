@@ -1,7 +1,7 @@
 import should from "should";
 import gulp from "gulp";
 
-describe("react-gulpfile", () => {
+describe("gulpfile", () => {
   it("should define gulp tasks", () => {
     gulp.tasks.should.have.keys();
 
