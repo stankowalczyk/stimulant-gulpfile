@@ -55,6 +55,15 @@
     "rimraf": "2.5.0",
     "should": "7.1.1"
   },
+  "keywords": [
+    "gulp",
+    "gulpfile",
+    "stimulant",
+    "react",
+    "sass",
+    "babel",
+    "build"
+  ],
   "babel": {
     "presets": [
       "es2015"
