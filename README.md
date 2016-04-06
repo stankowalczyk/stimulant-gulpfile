@@ -12,4 +12,21 @@ $ npm install stimulant-gulpfile --save-dev
 
 ## Usage
 
-TODO.
+Inside your `gulpfile.js`, simply import the package:
+
+```javascript
+require("stimulant-gulpfile");
+```
+
+This will automatically enable the following runnable gulp tasks:
+
+- `watch` — spawn a daemon that performs automatic re-builds whenever files change.
+- `build` — build everything.
+- `build-index` — build the main `index.html` file.
+- `build-misc` — build all miscellaneous files.
+- `build-styles` — build the stylesheets.
+- `build-scripts` — build the scripts.
+- `check-dependencies` — confirm that all NPM dependencies are installed.
+- `clean` — destroy the most recent build.
+
+In other words, it effectively turns your gulpfile into a simple (and powerful) one-liner — no further configuration required!
