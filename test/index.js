@@ -16,6 +16,8 @@ describe("gulpfile", () => {
       "build-styles",
       "build-images",
       "build-fonts",
+      "build-audio",
+      "build-video",
       "build-index",
       "build",
       "watch",

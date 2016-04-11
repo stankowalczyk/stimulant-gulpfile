@@ -22,11 +22,13 @@ This will automatically enable the following runnable gulp tasks:
 
 - `watch` — spawn a daemon that performs automatic re-builds whenever files change.
 - `build` — build everything.
-- `build-index` — build the main `index.html` file.
-- `build-fonts` — build the fonts.
-- `build-images` — build the images.
-- `build-styles` — build the stylesheets.
-- `build-scripts` — build the scripts.
+- `build-index` — build main `index.html` file.
+- `build-scripts` — build script files.
+- `build-styles` — build stylesheet files.
+- `build-images` — build image files.
+- `build-fonts` — build font files.
+- `build-audio` — build audio files.
+- `build-video` — build video files.
 - `check-dependencies` — confirm that all NPM dependencies are installed.
 - `clean` — destroy the most recent build.
 
