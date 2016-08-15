@@ -20,6 +20,8 @@ describe("gulpfile", () => {
       "build-video",
       "build-index",
       "build",
+      "reload",
+      "serve",
       "watch",
       "default"
     );
