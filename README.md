@@ -28,7 +28,8 @@ This will automatically enable the following runnable gulp tasks:
 - `build-images` — build image files.
 - `build-fonts` — build font files.
 - `build-audio` — build audio files.
-- `build-video` — build video files.
+- `build-videos` — build video files.
+- `build-misc` — build miscellaneous files.
 - `check-dependencies` — confirm that all NPM dependencies are installed.
 - `clean` — destroy the most recent build.
 
