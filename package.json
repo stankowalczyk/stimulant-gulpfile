@@ -55,6 +55,7 @@
     "babel-cli": "6.7.7",
     "babel-register": "6.7.2",
     "husky": "0.11.4",
+    "list-directory-contents": "0.0.3",
     "mocha": "2.4.5",
     "rimraf": "2.5.2",
     "should": "8.3.1"
