@@ -12,10 +12,16 @@ $ npm install stimulant-gulpfile --save-dev
 
 ## Usage
 
-Inside your `gulpfile.js`, simply import the package:
+Inside your `gulpfile.js`, import the package:
 
 ```javascript
 require("stimulant-gulpfile");
+```
+
+Or alternatively, create a symlink:
+
+```bash
+$ ln -s node_modules/stimulant-gulpfile/dist/index.js gulpfile.js
 ```
 
 This will automatically enable the following runnable gulp tasks:
