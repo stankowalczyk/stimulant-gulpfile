@@ -1,5 +1,14 @@
-import url from "url";
+import "babel-polyfill";
+import React from "react";
+import ReactDOM from "react-dom";
 
-let pre = document.createElement("pre");
-pre.innerHTML = JSON.stringify(url.parse(window.location.href));
-document.body.appendChild(pre);
+function App(props) {
+  return (
+    <div className="app">
+      <h1>Test</h1>
+      <p>This is a test app!</p>
+    </div>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById("react"));
