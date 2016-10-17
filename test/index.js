@@ -33,7 +33,7 @@ describe("gulpfile", () => {
 
     gutil.log = () => {}; // Suppress the gulpfile's logging.
 
-    this.timeout(5000); // Give the gulpfile enough time to build.
+    this.timeout(process.env.TRAVIS ? 30000 : 5000); // Give the gulpfile enough time to build.
 
     gulp.start("build", () => {
       ls(path.join(appDir, config.buildDir), (error, files) => {
