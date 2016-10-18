@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/dstil/stimulant-gulpfile/issues"
   },
-  "main": "./dist/index.js",
+  "main": "dist",
   "scripts": {
     "build": "rimraf dist && babel lib -d dist",
     "precommit": "npm test",
@@ -32,6 +32,7 @@
     "babelify": "7.3.0",
     "browserify": "13.1.0",
     "del": "2.2.2",
+    "eslint-config-dstil": "1.0.0",
     "eslintify": "3.1.0",
     "express": "4.14.0",
     "get-wanted-dependencies": "1.2.0",
