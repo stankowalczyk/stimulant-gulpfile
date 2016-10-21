@@ -1,6 +1,6 @@
 {
   "name": "stimulant-gulpfile",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "The powerful gulpfile used by stimulant, now available as a standalone NPM package.",
   "author": "DSTIL",
   "license": "MIT",
