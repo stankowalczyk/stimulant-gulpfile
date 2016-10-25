@@ -18,6 +18,7 @@
     "precommit": "npm test",
     "prepush": "npm test",
     "prepublish": "npm test && npm run build",
+    "pretest": "node_modules/.bin/eslint -c dstil lib",
     "test": "node_modules/.bin/mocha --compilers js:babel-register"
   },
   "dependencies": {
@@ -33,7 +34,7 @@
     "babelify": "7.3.0",
     "browserify": "13.1.0",
     "del": "2.2.2",
-    "eslint-config-dstil": "1.1.0",
+    "eslint-config-dstil": "1.1.1",
     "eslint-config-dstil-react": "1.0.0",
     "eslint-plugin-babel": "3.3.0",
     "eslint-plugin-import": "2.0.1",
