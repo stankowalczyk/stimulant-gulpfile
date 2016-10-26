@@ -22,7 +22,6 @@
     "test": "node_modules/.bin/mocha --compilers js:babel-register"
   },
   "dependencies": {
-    "babel-eslint": "7.0.0",
     "babel-plugin-transform-class-properties": "6.18.0",
     "babel-plugin-transform-do-expressions": "6.8.0",
     "babel-plugin-transform-export-extensions": "6.8.0",
@@ -34,13 +33,7 @@
     "babelify": "7.3.0",
     "browserify": "13.1.1",
     "del": "2.2.2",
-    "eslint-config-dstil": "1.1.2",
-    "eslint-config-dstil-react": "1.0.0",
-    "eslint-plugin-babel": "3.3.0",
-    "eslint-plugin-import": "2.0.1",
-    "eslint-plugin-promise": "3.3.0",
-    "eslint-plugin-react": "6.4.1",
-    "eslint-plugin-unicorn": "1.0.0",
+    "eslint-config-dstil-react": "1.0.1",
     "eslintify": "3.1.0",
     "express": "4.14.0",
     "get-wanted-dependencies": "1.2.0",
