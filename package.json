@@ -77,6 +77,12 @@
     "build"
   ],
   "babel": {
+    "plugins": [
+      "transform-class-properties",
+      "transform-export-extensions",
+      "transform-function-bind",
+      "transform-object-rest-spread"
+    ],
     "presets": [
       "es2015"
     ]
