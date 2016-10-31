@@ -26,7 +26,7 @@ $ ln -s node_modules/stimulant-gulpfile/dist/index.js gulpfile.js
 
 This will automatically enable the following runnable gulp tasks:
 
-- `watch` — spawn a daemon that performs automatic re-builds whenever files change.
+- `watch` — spawn a daemon that performs automatic rebuilds whenever files change.
 - `build` — build everything.
 - `build-index` — build main `index.html` file.
 - `build-scripts` — build script files.
