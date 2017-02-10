@@ -4,13 +4,7 @@
   "description": "The powerful gulpfile used by stimulant, now available as a standalone NPM package.",
   "author": "DSTIL",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dstil/stimulant-gulpfile.git"
-  },
-  "bugs": {
-    "url": "https://github.com/dstil/stimulant-gulpfile/issues"
-  },
+  "repository": "dstil/stimulant-gulpfile",
   "main": "dist",
   "scripts": {
     "build": "node_modules/.bin/babel lib -d dist -q",
@@ -23,15 +17,15 @@
   },
   "dependencies": {
     "babel-plugin-transform-node-env-inline": "lukehorvat/babel-plugin-transform-node-env-inline#b6034b4",
-    "babel-preset-es2015": "6.18.0",
-    "babel-preset-react": "6.16.0",
-    "babel-preset-stage-0": "6.16.0",
+    "babel-preset-es2015": "6.22.0",
+    "babel-preset-react": "6.22.0",
+    "babel-preset-stage-0": "6.22.0",
     "babelify": "7.3.0",
     "browserify": "13.1.1",
     "del": "2.2.2",
-    "eslint-config-dstil-react": "1.0.1",
+    "eslint-config-dstil-react": "1.0.3",
     "eslintify": "3.1.0",
-    "express": "4.14.0",
+    "express": "4.14.1",
     "get-wanted-dependencies": "1.2.0",
     "gulp": "3.9.1",
     "gulp-autoprefixer": "3.1.1",
@@ -52,14 +46,14 @@
     "vinyl-source-stream": "1.1.0"
   },
   "devDependencies": {
-    "babel-cli": "6.18.0",
-    "babel-polyfill": "6.16.0",
-    "babel-register": "6.18.0",
-    "husky": "0.11.9",
+    "babel-cli": "6.22.2",
+    "babel-polyfill": "6.22.0",
+    "babel-register": "6.22.0",
+    "husky": "0.13.1",
     "list-directory-contents": "0.0.3",
     "mocha": "3.1.2",
-    "react": "15.3.2",
-    "react-dom": "15.3.2",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
     "rimraf": "2.5.4",
     "should": "11.1.1"
   },
