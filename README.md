@@ -40,3 +40,7 @@ This will automatically enable the following runnable gulp tasks:
 - `clean` — destroy the most recent build.
 
 In other words, it effectively turns your gulpfile into a simple (and powerful) one-liner — no further configuration required!
+
+## Other
+
+Specifying the environment variable `GULP_PORT` will enable you to run on a custom port number.
