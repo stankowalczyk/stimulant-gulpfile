@@ -41,6 +41,10 @@ This will automatically enable the following runnable gulp tasks:
 
 In other words, it effectively turns your gulpfile into a simple (and powerful) one-liner — no further configuration required!
 
+## Environment Injection
+
+Any code in scripts that matches the `#env{SOME_ENV}` pattern is a candidate for environment injection. The injection process takes place during the build-scripts task and effectively replaces the entire contents of the pattern with the value of `process.env.SOME_ENV` if not `undefined`.
+
 ## Other
 
 Specifying the environment variable `GULP_PORT` will enable you to run on a custom port number.
