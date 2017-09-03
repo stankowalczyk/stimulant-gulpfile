@@ -23,7 +23,7 @@
     "babelify": "7.3.0",
     "browserify": "13.1.1",
     "del": "2.2.2",
-    "eslint-config-dstil-react": "1.0.3",
+    "eslint-config-dstil-react": "1.0.4",
     "eslintify": "3.1.0",
     "express": "4.14.1",
     "get-wanted-dependencies": "1.2.0",
