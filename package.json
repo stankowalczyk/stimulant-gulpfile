@@ -41,6 +41,7 @@
     "gulp-uglify": "2.0.0",
     "gulp-util": "3.0.7",
     "gulp-watch": "4.3.10",
+    "pump": "3.0.0",
     "rememberify": "1.0.1",
     "run-sequence": "1.2.2",
     "vinyl-buffer": "1.0.0",
