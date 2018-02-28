@@ -4,6 +4,6 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = {
-  minify: true,
+  minify: false,
   sourcemaps: false
 };
